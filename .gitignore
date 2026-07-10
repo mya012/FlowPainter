@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Experiment outputs
+outputs/
+output/
+results/
+experiments/
+runs/
+
+# Weights and checkpoints
+checkpoints/
+checkpoint/
+weights/
+*.pth
+*.pt
+*.ckpt
+
+# WandB
+wandb/
+
+# Datasets
+data/
+dataset/
+datasets/
+
+# Cache
+.cache/
+cache/
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
