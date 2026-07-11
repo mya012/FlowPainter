@@ -10,7 +10,7 @@ class FlowPainterLogFilter(logging.Filter):
     """Normalize project logger names in command-line output."""
 
     def filter(self, record: logging.LogRecord) -> bool:
-        if record.name == "flowdiffuser" or record.name.startswith("flow_painter") or record.name in {"datasets"}:
+        if record.name == "flowpainter" or record.name.startswith("flow_painter") or record.name in {"datasets"}:
             record.name = "flowpainter"
         return True
 

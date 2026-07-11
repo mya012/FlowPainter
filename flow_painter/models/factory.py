@@ -40,7 +40,7 @@ def build_flow_model(args: Namespace, device: torch.device) -> nn.Module:
         Flow model placed on ``device``.
     """
     register_legacy_core()
-    from flowdiffuser import FlowDiffuser
+    from flowpainter import FlowPainter
 
     if not hasattr(args, "base_model_ckpt") or args.base_model_ckpt is None:
         args.base_model_ckpt = str(default_base_model_checkpoint())

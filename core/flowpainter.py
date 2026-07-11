@@ -67,7 +67,7 @@ def ste_round(x):
     return torch.round(x) - x.detach() + x
 
 
-class FlowDiffuser(nn.Module):
+class FlowPainter(nn.Module):
     def __init__(self, args):
         super().__init__()
         LOGGER.info("Initializing FlowPainter model")

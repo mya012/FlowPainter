@@ -18,7 +18,7 @@ def build_parser() -> argparse.ArgumentParser:
         Configured ``argparse.ArgumentParser``.
     """
     parser = argparse.ArgumentParser(description="Train FlowPainter optical-flow model.")
-    parser.add_argument("--name", default="flowdiffuser", help="Experiment name.")
+    parser.add_argument("--name", default="flowpainter", help="Experiment name.")
     parser.add_argument("--stage", required=True, help="Training stage: chairs, things, sintel, or kitti.")
     parser.add_argument("--restore_ckpt", default=None, help="Optional checkpoint to restore.")
     parser.add_argument("--base_model_ckpt", default=str(default_base_model_checkpoint()), help="Base flow model checkpoint.")
