@@ -44,6 +44,8 @@ By default, the auxiliary flow prior is loaded from:
 weights/100000_raft-sintel.pth
 ```
 
+You can download the model from [this Google Drive link](https://drive.google.com/drive/folders/1Z0lJlPvUkNy5OTcwCgJKYSXaqOZ8_Ztb?usp=drive_link).
+
 ## Training and Evaluation
 
 The compact shell recipe follows the staged training schedule:
